@@ -1,0 +1,58 @@
+body{
+        font-family: arial;
+        margin: 20px;
+        padding: 0;
+
+        background: #f0f0f0;
+    }
+    .about-container{
+        font-size: 30px;
+        font-weight: bold;
+        padding: 20px;
+        background-color: #f9f9f9;
+        margin: 40px auto;
+    }
+    
+    .about-content{
+        font-size: 28px;
+        margin-bottom: 20px;
+        color:cadetblue
+
+    }
+    .section-title{
+        font-size: 30px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 10px;
+    }
+    .about-text{
+        margin-top: 20px;
+        font-size: large;
+    }
+    .about-text h3{
+        font-size: 30px;
+        font-weight: bold;
+        color: black;
+        margin-bottom: 12px;
+    }
+    .about-text ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+
+    .about-text li{
+        text-align: center;
+        margin-bottom: 10px;
+        padding-left: 30px;
+        position: relative;
+        font-size: 26px;
+    }
+    .about-text li::before{
+        content: "\2022";
+        position: absolute;
+        font-size: 18px;
+        left: 0;
+        top: 0;
+    }
